@@ -1,0 +1,5 @@
+Simple CSV parsing scripts to format data for input to bitcoin.tax
+
+YoBit scripts are especially useful as website does not provide an export option
+
+Usage described in header of py files. All tested with python3 only.

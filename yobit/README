@@ -1,0 +1,3 @@
+The YoBit API wasn't returning all trades hence the script to parse the HTML pages.
+
+Usage is described in the header of file getTradesFromHTMLPages.py
