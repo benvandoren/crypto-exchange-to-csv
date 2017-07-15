@@ -21,6 +21,7 @@
 #
 
 from bs4 import BeautifulSoup
+import sys
 
 # yobit bids history page
 def bidsCSV(numPages):
@@ -66,5 +67,5 @@ def ordersCSV(numPages):
             continue
           print('%s,%s,%s,%s,%s,%s,%s' % (date, action, source, symbol, amount, price, curr))
 
-numPages = sys.argv[1]
+numPages = int(sys.argv[1])
 bidsCSV(numPages)

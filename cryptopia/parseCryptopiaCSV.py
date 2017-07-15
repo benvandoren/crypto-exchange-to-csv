@@ -3,6 +3,7 @@
 #   python3 parseCryptopiaCSV.py trades.csv > myCSV.csv
 
 import csv
+import sys
 
 def parseCSV(file):
   source = "cryptopia"
